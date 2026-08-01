@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Adaptive Color Palette -->
+    <linearGradient id="shieldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="50%" stop-color="#3A86FF" />
+      <stop offset="100%" stop-color="#05B292" />
+    </linearGradient>
+
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="50%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Hardware Circuit Traces (Theme Accent) -->
+  <g stroke="#10B981" stroke-width="2.5" opacity="0.5" fill="none" stroke-linecap="round">
+    <path d="M 110 170 L 160 170 L 190 200" />
+    <circle cx="110" cy="170" r="4" fill="#10B981" />
+    
+    <path d="M 402 170 L 352 170 L 322 200" />
+    <circle cx="402" cy="170" r="4" fill="#10B981" />
+    
+    <path d="M 130 330 L 170 330 L 200 300" />
+    <circle cx="130" cy="330" r="4" fill="#10B981" />
+
+    <path d="M 382 330 L 342 330 L 312 300" />
+    <circle cx="382" cy="330" r="4" fill="#10B981" />
+  </g>
+
+  <!-- Outer Protective Shield -->
+  <path d="M 256 65 
+           C 334 65, 396 85, 396 148 
+           C 396 272, 292 355, 256 395 
+           C 220 355, 116 272, 116 148 
+           C 116 85, 178 65, 256 65 Z" 
+        fill="none" 
+        stroke="url(#shieldBorder)" 
+        stroke-width="8" 
+        filter="url(#glow)"/>
+
+  <path d="M 256 77 
+           C 322 77, 380 96, 380 150 
+           C 380 260, 284 336, 256 375 
+           C 228 336, 132 260, 132 150 
+           C 132 96, 190 77, 256 77 Z" 
+        fill="#0F172A" 
+        stroke="currentColor"
+        stroke-opacity="0.2"
+        stroke-width="2"/>
+
+  <!-- Camera Lens Assembly -->
+  <circle cx="256" cy="210" r="88" fill="#1E293B" stroke="url(#metalGrad)" stroke-width="7" />
+  <circle cx="256" cy="210" r="78" fill="#090D16" stroke="#10B981" stroke-width="2" opacity="0.8"/>
+
+  <!-- Aperture Blades -->
+  <g fill="none" stroke="url(#metalGrad)" stroke-width="3" stroke-linejoin="round">
+    <path d="M 216 137 L 285 155 L 256 210 Z" fill="#1E293B" opacity="0.9"/>
+    <path d="M 296 157 L 320 223 L 256 210 Z" fill="#152033" opacity="0.9"/>
+    <path d="M 326 230 L 285 280 L 256 210 Z" fill="#1E293B" opacity="0.9"/>
+    <path d="M 270 287 L 205 267 L 256 210 Z" fill="#152033" opacity="0.9"/>
+    <path d="M 190 263 L 170 195 L 256 210 Z" fill="#1E293B" opacity="0.9"/>
+    <path d="M 172 185 L 220 140 L 256 210 Z" fill="#152033" opacity="0.9"/>
+  </g>
+
+  <!-- Center Lens Iris & Hardware Glow -->
+  <circle cx="256" cy="210" r="30" fill="#030712" stroke="#00F5D4" stroke-width="3"/>
+  <circle cx="256" cy="210" r="16" fill="url(#accentGlow)" filter="url(#glow)"/>
+  <circle cx="250" cy="204" r="4" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- StrongBox / TEE Hardware Chip Badge -->
+  <g transform="translate(256, 330)">
+    <rect x="-24" y="-18" width="48" height="36" rx="6" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
+    <path d="M -24 -9 H -28 M -24 0 H -28 M -24 9 H -28
+             M 24 -9 H 28 M 24 0 H 28 M 24 9 H 28
+             M -9 -18 V -22 M 0 -18 V -22 M 9 -18 V -22
+             M -9 18 V 22 M 0 18 V 22 M 9 18 V 22" 
+          stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -7 0 L -2 5 L 8 -5" fill="none" stroke="#00F5D4" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title Typography -->
+  <text x="256" y="438" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="30" 
+        font-weight="800" 
+        letter-spacing="4" 
+        fill="currentColor" 
+        text-anchor="middle">SURAKSHAK</text>
+        
+  <text x="256" y="462" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="11" 
+        font-weight="600" 
+        letter-spacing="2" 
+        fill="#10B981" 
+        text-anchor="middle">HARDWARE-BACKED MEDIA SECURITY</text>
+</svg>
