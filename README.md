@@ -9,14 +9,14 @@ By utilizing Android's **StrongBox TEE (Trusted Execution Environment)**, **Key 
 <!-- Screenshots Grid (3 images per row) -->
 <table>
   <tr>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/60977bb2-84a0-406e-8b40-b5ad91646668" alt="Login / Sign Up" /></td>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/a0875642-2018-46bd-95de-7dcaba0db173" alt="Home Dashboard" /></td>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/f641a5e2-ad90-4f88-98ca-29fe23521e26" alt="Initiate Scan" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/60977bb2-84a0-406e-8b40-b5ad91646668" alt="Landing page" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/a0875642-2018-46bd-95de-7dcaba0db173" alt="Camera" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/f641a5e2-ad90-4f88-98ca-29fe23521e26" alt="Vault Pin" /></td>
   </tr>
   <tr>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/6892c842-3e6c-47ea-bf25-e5ca616701f8" alt="Scan in Progress" /></td>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/508996da-94e1-41c1-afb0-d77b8f3d4671" alt="Scan Complete" /></td>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/e040cd8c-b22b-43d5-831c-47944f0c9f38" alt="Threat Report" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/6892c842-3e6c-47ea-bf25-e5ca616701f8" alt="Secure Vault" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/508996da-94e1-41c1-afb0-d77b8f3d4671" alt="Persistent" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/e040cd8c-b22b-43d5-831c-47944f0c9f38" alt="Provenance Inspector" /></td>
   </tr>
 </table>
 
