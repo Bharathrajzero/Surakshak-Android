@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Circuit Traces -->
+    <path
+        android:pathData="M 110,170 L 160,170 L 190,200"
+        android:strokeWidth="5"
+        android:strokeColor="#8010B981"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 402,170 L 352,170 L 322,200"
+        android:strokeWidth="5"
+        android:strokeColor="#8010B981"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 130,330 L 170,330 L 200,300"
+        android:strokeWidth="5"
+        android:strokeColor="#8010B981"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 382,330 L 342,330 L 312,300"
+        android:strokeWidth="5"
+        android:strokeColor="#8010B981"
+        android:strokeLineCap="round" />
+
+    <!-- Shield -->
+    <path
+        android:pathData="M 256,65 C 334,65 396,85 396,148 C 396,272 292,355 256,395 C 220,355 116,272 116,148 C 116,85 178,65 256,65 Z"
+        android:strokeWidth="10"
+        android:strokeColor="#3A86FF" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M 256,77 C 322,77 380,96 380,150 C 380,260 284,336 256,375 C 228,336 132,260 132,150 C 132,96 190,77 256,77 Z" />
+
+    <!-- Lens -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M 256,210 m -88,0 a 88,88 0 1,1 176,0 a 88,88 0 1,1 -176,0"
+        android:strokeWidth="7"
+        android:strokeColor="#64748B" />
+    <path
+        android:fillColor="#CC090D16"
+        android:pathData="M 256,210 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0"
+        android:strokeWidth="2"
+        android:strokeColor="#10B981" />
+
+    <!-- Iris -->
+    <path
+        android:fillColor="#030712"
+        android:pathData="M 256,210 m -30,0 a 30,30 0 1,1 60,0 a 30,30 0 1,1 -60,0"
+        android:strokeWidth="3"
+        android:strokeColor="#00F5D4" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M 256,210 m -16,0 a 16,16 0 1,1 32,0 a 16,16 0,1,1 -32,0" />
+
+    <!-- Hardware Chip -->
+    <group
+        android:translateX="256"
+        android:translateY="330">
+        <path
+            android:fillColor="#0F172A"
+            android:pathData="M -24,-18 L 24,-18 L 24,18 L -24,18 Z"
+            android:strokeWidth="2"
+            android:strokeColor="#10B981" />
+        <path
+            android:pathData="M -7,0 L -2,5 L 8,-5"
+            android:strokeWidth="3"
+            android:strokeColor="#00F5D4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>
