@@ -5,6 +5,39 @@
 By utilizing Android's **StrongBox TEE (Trusted Execution Environment)**, **Key Attestation**, and **Protected Confirmation**, Surakshak provides military-grade assurance that media is immutable and provably authentic.
 
 ---
+## Screenshot
+<!-- Screenshots Grid (3 images per row) -->
+<table>
+  <tr>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/60977bb2-84a0-406e-8b40-b5ad91646668" alt="Login / Sign Up" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/a0875642-2018-46bd-95de-7dcaba0db173" alt="Home Dashboard" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/f641a5e2-ad90-4f88-98ca-29fe23521e26" alt="Initiate Scan" /></td>
+  </tr>
+  <tr>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/6892c842-3e6c-47ea-bf25-e5ca616701f8" alt="Scan in Progress" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/508996da-94e1-41c1-afb0-d77b8f3d4671" alt="Scan Complete" /></td>
+    <td width="33%"><img src="https://github.com/user-attachments/assets/e040cd8c-b22b-43d5-831c-47944f0c9f38" alt="Threat Report" /></td>
+  </tr>
+</table>
+
+<br />
+
+<!-- Security Audit Report (Below Images) -->
+<div align="center">
+  <h3>📄 Security Audit Report</h3>
+  <p>
+    <a href="https://github.com/user-attachments/files/30617069/Surakshak_Report_1785588280384.pdf" target="_blank">
+      <img src="https://img.shields.io/badge/Download_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Download Report" />
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/user-attachments/files/30617069/Surakshak_Report_1785588280384.pdf" target="_blank">
+      <b>Surakshak_Report_1785588280384.pdf</b>
+    </a>
+  </p>
+</div>
+
+---
 
 ## 🛡️ Core Features
 
@@ -72,9 +105,8 @@ Surakshak is designed for scenarios where the authenticity of media is critical:
 ---
 
 ## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
+This project is licensed under the MIT License © 2026 Bharath Raj, AlphaGroup.
 
 ---
 
-Developed with ❤️ by the Alpha Group.
+Developed with ❤️ by the Bharath raj.
